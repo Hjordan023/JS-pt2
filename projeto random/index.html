@@ -15,10 +15,12 @@
     <h1>Jordan Sorteios</h1>
     <div>
         <h2>Sortear um número </h2>
-        <input type="number" placeholder="Numero minimo">
-        <input type="number" placeholder="Numero maximo">
+        <input id="input-min" type="number" placeholder=" Numero minimo">
+        <input id="input-max" type="number" placeholder=" Numero maximo">
     </div>
-    <button>Sortear</button>
+    <input class="result" type="number" placeholder="Numero Sorteado" readonly>
+
+    <button onclick="generateNumber()">Sortear</button>
     
 </body>
 </html>
